@@ -1,6 +1,6 @@
 <template>
   <div class="text-sm text-gray-600 font-light px-4 center-info">
-    <button>
+    <button title="Regresar">
       <router-link to="/"
         ><font-awesome-icon icon="fa-solid fa-reply"
       /></router-link>
