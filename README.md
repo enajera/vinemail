@@ -1,4 +1,4 @@
-# vinemail
+# Vinemail
 
 ## Project setup
 ```
