@@ -1,6 +1,6 @@
-# Vinemail :incoming_envelope:
+# ZincSearch - Frontend :incoming_envelope:
 
-Aplicación web construida vue.js que muestra información de correos en ZincSearch. 
+Aplicación web construida vue.js y tailwind que muestra información de correos en ZincSearch. 
 
 ## Project setup
 ```
