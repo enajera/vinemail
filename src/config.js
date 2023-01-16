@@ -1,1 +1,1 @@
-export const endpoint = 'http://localhost:9000/';
+export const endpoint = 'http://api-rest-dev.us-east-1.elasticbeanstalk.com/';
