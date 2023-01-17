@@ -1,4 +1,5 @@
- 
+image: node:latest 
+
 stages:
   - build
   - deploy
