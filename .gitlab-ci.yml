@@ -1,6 +1,4 @@
-variables:
-  APP_NAME: api-rest
-
+ 
 stages:
   - build
   - deploy
@@ -20,5 +18,4 @@ deploy:
     - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
     - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
     - aws configure set default.region us-east-1
-    - aws s3 cp dist/ s3://$S3_BUCKET/$ARTIFACT_NAME
-    - aws beanstalk create-application-version --application-name "my-app" --version-label "v$CI_COMMIT_SHA" --source-bundle S3Bucket="my-bucket",S3Key="dist.zip"
+    - aws s3 cp dist/ s3://$S3_VUE_BUCKET/

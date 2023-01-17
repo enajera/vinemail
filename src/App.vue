@@ -58,7 +58,7 @@
     <section class="flex justify-center items-center h-screen">
       <div class="max-w-md w-full bg-white rounded p-6 space-y-4 opacity-82">
         <div class="mb-4">
-          <h1 class="text-xl font-bold text-center">Login</h1>
+          <h1 class="text-xl font-bold text-center">LoginX</h1>
         </div>
         <div>
           <p v-if="error" class="text-red-500 text-center">Invalid username or password</p>
